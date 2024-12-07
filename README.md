@@ -23,16 +23,16 @@ How it Works
 
 Commands Used
 
-    wuauclt.exe /updatenow – Forces Windows Update to start.
-    usoclient StartScan – Starts Windows Update scan.
-    gpupdate /force – Forces a group policy update.
-    cleanmgr /autoclean – Runs Windows Disk Cleanup in auto-clean mode.
-    powershell -Command "Install-PackageProvider -Name NuGet" – Installs or repairs WinGet package manager.
-    winget upgrade --all – Upgrades all installed packages using WinGet.
-    del /q /s %USERPROFILE%\AppData\Local\Temp\* – Deletes user temporary files.
-    taskkill /im chrome.exe /f – Force closes Chrome to clear cache.
-    ipconfig /flushdns – Clears DNS cache.
-    powercfg /setactive SCHEME_MAX – Sets high-performance power mode.
+    wuauclt.exe /updatenow
+    usoclient StartScan
+    gpupdate /force
+    cleanmgr /autoclean
+    powershell -Command "Install-PackageProvider -Name NuGet"
+    winget upgrade --all
+    del /q /s %USERPROFILE%\AppData\Local\Temp\*
+    taskkill /im chrome.exe /f
+    ipconfig /flushdns
+    powercfg /setactive SCHEME_MAX
 
 Notes
 
